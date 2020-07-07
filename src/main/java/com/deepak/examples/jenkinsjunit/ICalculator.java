@@ -10,6 +10,12 @@ public interface ICalculator {
 	int divison(int a, int b) throws Exception;
 	
 	int square(int a);
+	
+	int cube(int c);
+	
+	int vol(int l, int b, int h); 
+	
+	int circle(int r);
 
 	boolean equalIntegers(int a, int b);
 }
