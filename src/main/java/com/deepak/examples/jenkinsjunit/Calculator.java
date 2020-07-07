@@ -29,6 +29,11 @@ public class Calculator implements ICalculator {
 
 		return a / b;
 	}
+	
+	@Override
+	public int square(int a) {
+		return a * a;
+	}
 
 	@Override
 	public boolean equalIntegers(int a, int b) {
