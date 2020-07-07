@@ -15,7 +15,7 @@ public interface ICalculator {
 	
 	int vol(int l, int b, int h); 
 	
-	int circle(int r);
+	double circle(int r);
 
 	boolean equalIntegers(int a, int b);
 }
