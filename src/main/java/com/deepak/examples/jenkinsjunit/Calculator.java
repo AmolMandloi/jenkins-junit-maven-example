@@ -34,6 +34,23 @@ public class Calculator implements ICalculator {
 	public int square(int a) {
 		return a * a;
 	}
+	
+	@Override
+	public int cube(int c) {
+		return c * c * c;
+	}
+	
+	@Override
+	public int vol(int l, int b, int h) {
+		return l * b * h;
+		
+	}
+	@Override
+	public int circle(int r) {
+		return 3.14 * r * r;
+	}
+		
+		
 
 	@Override
 	public boolean equalIntegers(int a, int b) {
